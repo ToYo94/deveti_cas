@@ -1,6 +1,8 @@
 // ovo se uvek ispisuje na pocetku .js-a i govori mu da saceka da se glavni dokument kojim je vezan u 
 //potpunosti ucita.
 
+
+
 $(document).ready(function() {
 
 	// alert("Pozdrav!");
@@ -31,8 +33,21 @@ $(document).ready(function() {
 		//});
 	});
 
+<<<<<<< HEAD
 	// $(".lista").click(function() {
 	// 	$(this).css({color:"red"});
+=======
+	// $(".colorchange").css({color:"red"});
+
+	$(".listcolor").click(function() {
+		$(".lista").toggleClass("colorchange");
+	});
+	// $(".lista").click(function() {
+	// 	$(this).toggleClass("colorchange");
+	//	if ($(this)color:"red") {
+	//		$(this).css({color:"black"});
+	//	}
+>>>>>>> f1f8a7f5557b21763b80fece5b8c87b6ff7ad1fd
 	// });	
 
 // DOMACI naprviti funkciju toggle koja sluizi i za druge stvari osim hide/show. Hint: treba koristiti if varijablu,
