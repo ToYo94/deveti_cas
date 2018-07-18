@@ -19,11 +19,7 @@
 			<li class="lista">Jova</li>
 		</ul>
 
-<<<<<<< HEAD
 		<button class="dugme">Promeni element</button>
-=======
-		<button class="listcolor">Promeni boju imena</button>
->>>>>>> f1f8a7f5557b21763b80fece5b8c87b6ff7ad1fd
 
 		<script
   src="http://code.jquery.com/jquery-3.3.1.js"
@@ -32,5 +28,3 @@
   	<script src="script.js"></script>
 	</body>
 </html>
-
-
