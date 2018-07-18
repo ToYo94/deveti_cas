@@ -25,12 +25,15 @@ $(document).ready(function() {
 
 	// $(".colorchange").css({color:"red"});
 
-	$(".lista").click(function() {
-		$(this).toggleClass("colorchange");
+	$(".listcolor").click(function() {
+		$(".lista").toggleClass("colorchange");
+	});
+	// $(".lista").click(function() {
+	// 	$(this).toggleClass("colorchange");
 	//	if ($(this)color:"red") {
 	//		$(this).css({color:"black"});
 	//	}
-	});	
+	// });	
 
 // DOMACI naprviti funkciju toggle koja sluizi i za druge stvari osim hide/show. Hint: treba koristiti if varijablu,
 // npr if color blue, changecolor red, if red, changecolor blue. Upotrebiti ga u listi da kad se opet klikne na ime,

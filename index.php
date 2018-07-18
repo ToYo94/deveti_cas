@@ -19,6 +19,8 @@
 			<li class="lista">Jova</li>
 		</ul>
 
+		<button class="listcolor">Promeni boju imena</button>
+
 		<script
   src="http://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
