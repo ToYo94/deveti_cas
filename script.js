@@ -1,6 +1,8 @@
 // ovo se uvek ispisuje na pocetku .js-a i govori mu da saceka da se glavni dokument kojim je vezan u 
 //potpunosti ucita.
 
+
+
 $(document).ready(function() {
 
 	// alert("Pozdrav!");
