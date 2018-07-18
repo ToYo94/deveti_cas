@@ -8,9 +8,9 @@
 
 		<p class="changetext">Pozdrav</p>
 		<p class="hide">Mladen</p>
-		<button class="clickme">Hide</button>
+		<button class="clickme" value="Hide">Hide</button>
 
-		<ul>
+		<ul class="parent">
 			<li class="lista">Mladen</li>
 			<li class="lista">Toma</li>
 			<li class="lista">Zoltan</li>
@@ -18,6 +18,8 @@
 			<li class="lista">Desanka</li>
 			<li class="lista">Jova</li>
 		</ul>
+
+		<button class="dugme">Promeni element</button>
 
 		<script
   src="http://code.jquery.com/jquery-3.3.1.js"
